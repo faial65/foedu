@@ -1,4 +1,4 @@
-const OdooConnection = require('./lib/odoo.js');
+import OdooConnection from './lib/odoo.js';
 
 async function testOdooConnection() {
   console.log('Testing Odoo connection...');

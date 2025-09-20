@@ -1,7 +1,7 @@
 import { Webhook } from 'svix';
 import { headers } from 'next/headers';
 import { NextResponse } from 'next/server';
-import OdooConnection from '@/lib/odoo.js';
+import OdooConnection from '../../../../lib/odoo.js';
 
 const odoo = new OdooConnection();
 
